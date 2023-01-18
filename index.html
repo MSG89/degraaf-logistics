@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header></header>
-    <div id="backgroundFootage"></div>
+
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+    </div>
+
+    <div id="backgroundFootage">
+        <video autoplay muted loop id="myVideo">
+            <source src="/Drone Shot of Cargo Containers Terminal Ships at Dock Port. Stock Videos of Logistics Export Import.mp4" type="video/mp4">
+        </video>
+    </div>
     <main>
         <div id="seaCard"></div>
         <div id="airCard"></div>
         <div id="roadCard"></div>
-        <div id="railCard"></div> 
+        <div id="railCard"></div>
         <div id="combinedCard"></div>
     </main>
     <footer></footer>
     <script src="app.js"></script>
 </body>
+
 </html>

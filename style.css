@@ -1,0 +1,60 @@
+html, body {
+    padding:0;
+    margin:0;
+    background-color: grey;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background: rgba(4, 170, 109, 0) /* Green background with 30% opacity */
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgba(4, 170, 109, 0); /* Green background with 30% opacity */
+    display: block;
+    height: 20px;
+    width: 20px;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
