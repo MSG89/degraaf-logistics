@@ -12,34 +12,48 @@
 </head>
 
 <body>
-    <header></header>
+    <div class="top-page-wrapper">
+        <header>
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-lg"></i>
+                </a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            </div>
+        </header>
 
-    <div class="topnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars fa-lg"></i>
-        </a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+        <div id="backgroundFootage">
+            <video autoplay muted loop id="myVideo">
+                <source src="video assets/main page video.mp4s" type="video/mp4">
+            </video>
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    </div>
+    <div id="top-page-wrapper-stripe"></div>
 
+    <div class="bottom-page-wrapper">
+        <main>
+            <p class="Solutions">
+                Our Solutions
+                <div id="bottom-box"></div>
+
+            <div id="SolutionCards">
+                <ul class="Cards">
+                    <li class="Card">Sea</li>
+                    <li class="Card">Air</li>
+                    <li class="Card">Road</li>
+                    <li class="Card">Rail</li>
+                    <li class="Card">Combined</li>
+                </ul>
+            </div>
+        </main>
     </div>
 
-    <div id="backgroundFootage">
-        <video autoplay muted loop id="myVideo">
-            <source src="/main page video.mp4" type="video/mp4">
-        </video>
-    </div>
-    <main>
-        <div id="seaCard"></div>
-        <div id="airCard"></div>
-        <div id="roadCard"></div>
-        <div id="railCard"></div>
-        <div id="combinedCard"></div>
-    </main>
     <footer></footer>
     <script src="app.js"></script>
 </body>

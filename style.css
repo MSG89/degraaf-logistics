@@ -1,62 +1,112 @@
-html, body {
-    padding:0;
-    margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  overflow-x: hidden;
 }
 
+.top-page-wrapper {
+  height: 735px;
+}
+
+#top-page-wrapper-stripe {
+  padding-top: 25px;
+  width: 100vw;
+  background-color: rgb(232, 206, 81);
+}
 
 /* Style the navigation menu */
 .topnav {
-    overflow: hidden;
-    position: relative;
-    background: rgba(4, 170, 109, 0);
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+  overflow: hidden;
+  position: relative;
+  background: rgba(4, 170, 109, 0);
+}
 
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: rgba(4, 170, 109, 0); 
-    display: block;
-    height: 20px;
-    width: 20px;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    background: rgba(0, 0, 0, 0);
-    color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    color: white;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
 
-  }
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  display: block;
 
-  /* Style the video: 100% width and height to cover the entire window */
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgba(4, 170, 109, 0);
+  display: block;
+  height: 20px;
+  width: 20px;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  background: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    pointer-events: none;
-    z-index: -1;
-  }
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  pointer-events: none;
+  z-index: -1;
 
+}
+
+.Solutions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+
+
+  margin-bottom: 0px;
+}
+
+#bottom-box {
+  width: 250px;
+  height: 10px;
+  margin: auto;
+  background-color: rgb(232, 206, 81);
+  border-radius: 300px;
+}
+
+#SolutionCards {
+  margin-top: 25px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.Card {
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
