@@ -122,5 +122,6 @@ ul {
   height: 300px;
   color: white;
   position: absolute;
-  
+  pointer-events: none;
+  z-index: 1;
 }
