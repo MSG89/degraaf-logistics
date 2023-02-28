@@ -110,6 +110,17 @@ ul {
   margin-right: 5px;
 }
 
-li {
-  /* pointer-events: none; */
+.cardOverlay{
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  opacity: 66%;
+  position: absolute;
+}
+.cardOverlayText{
+  width: 200px;
+  height: 300px;
+  color: white;
+  position: absolute;
+  
 }
