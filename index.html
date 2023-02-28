@@ -44,11 +44,31 @@
 
             <div id="SolutionCards">
                 <ul class="Cards">
-                    <li class="Card">Sea</li>
-                    <li class="Card">Air</li>
-                    <li class="Card">Road</li>
-                    <li class="Card">Rail</li>
-                    <li class="Card">Combined</li>
+                    <li class="Card">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="seaCardVideo">
+                            <source src="video assets/sea card video_Trim.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="Card">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="airCardVideo">
+                            <source src="video assets/air card video.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="Card">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="roadCardVideo">
+                            <source src="video assets/road card video.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="Card">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="trainCardVideo">
+                            <source src="video assets/test.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="Card">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="CombinedCardVideo">
+                            <source src="video assets/sea card video_Trim.mp4" type="video/mp4">
+                        </video>
+                    </li>
                 </ul>
             </div>
         </main>
