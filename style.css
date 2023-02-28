@@ -1,7 +1,6 @@
 html, body {
     padding:0;
     margin:0;
-    background-color: grey;
 }
 
 
@@ -9,7 +8,7 @@ html, body {
 .topnav {
     overflow: hidden;
     position: relative;
-    background: rgba(4, 170, 109, 0) /* Green background with 30% opacity */
+    background: rgba(4, 170, 109, 0);
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -19,7 +18,7 @@ html, body {
   
   /* Style navigation menu links */
   .topnav a {
-    color: black;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -29,7 +28,7 @@ html, body {
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: rgba(4, 170, 109, 0); /* Green background with 30% opacity */
+    background: rgba(4, 170, 109, 0); 
     display: block;
     height: 20px;
     width: 20px;
@@ -40,6 +39,7 @@ html, body {
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #ddd;
+    background: rgba(0, 0, 0, 0);
     color: black;
   }
   
@@ -51,10 +51,12 @@ html, body {
 
   /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    pointer-events: none;
+    z-index: -1;
   }
 
