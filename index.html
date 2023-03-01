@@ -8,6 +8,7 @@
     <script type="module"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e9f23653e8.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -30,7 +31,7 @@
 
         <div id="backgroundFootage">
             <video autoplay muted loop id="myVideo">
-                <source src="video assets/main page video.mp4s" type="video/mp4">
+                <source src="video assets/main page video.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -40,47 +41,72 @@
         <main>
             <p class="Solutions">
                 Our Solutions
-                <div id="bottom-box"></div>
+            <div id="bottom-box"></div>
 
             <div id="SolutionCards">
                 <ul class="Cards">
                     <li class="Card">
-                        <div class="cardOverlayText"> Sea Freight
+                        <div class="cardOverlayText">
+                            <span style="display:block; margin-top: 25px; margin-bottom: 10px;">
+                                <i class="fa fa-thin fa-ship fa-2x"></i>
+                            </span>
+                            Sea Freight
                         </div>
                         <div class="cardOverlay"></div>
-                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="seaCardVideo">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200"
+                            height="300" muted loop id="seaCardVideo">
                             <source src="video assets/sea card video_Trim.mp4" type="video/mp4">
                         </video>
                     </li>
                     <li class="Card">
-                        <div class="cardOverlayText"> Air Freight
+                        <div class="cardOverlayText">
+                            <span style="display:block; margin-top: 25px; margin-bottom: 10px;">
+                                <i class="fa fa-regular fa-plane fa-2x"></i>
+                            </span>
+                            Air Freight
                         </div>
                         <div class="cardOverlay"></div>
-                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="airCardVideo">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200"
+                            height="300" muted loop id="airCardVideo">
                             <source src="video assets/air card video.mp4" type="video/mp4">
                         </video>
                     </li>
-                    <li class="Card"> 
-                        <div class="cardOverlayText"> Road Freight
+                    <li class="Card">
+                        <div class="cardOverlayText">
+                            <span style="display:block; margin-top: 25px; margin-bottom: 10px;">
+                                <i class="fa fa-regular fa-truck fa-2x"></i>
+                            </span>
+                            Road Freight
                         </div>
                         <div class="cardOverlay"></div>
-                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="roadCardVideo">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200"
+                            height="300" muted loop id="roadCardVideo">
                             <source src="video assets/road card video.mp4" type="video/mp4">
                         </video>
                     </li>
-                    <li class="Card"> 
-                        <div class="cardOverlayText"> Rail Freight
+                    <li class="Card">
+                        <div class="cardOverlayText">
+                            <span style="display:block; margin-top: 25px; margin-bottom: 10px;">
+                                <i class="fa fa-solid fa-train fa-2x"></i>
+                            </span>
+                            Rail Freight
                         </div>
                         <div class="cardOverlay"></div>
-                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="trainCardVideo">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200"
+                            height="300" muted loop id="trainCardVideo">
                             <source src="video assets/train card video.mp4" type="video/mp4">
                         </video>
                     </li>
                     <li class="Card">
-                        <div class="cardOverlayText"> Combined Freight
+                        <div class="cardOverlayText">
+                            <span style="display:block; margin-top: 25px; margin-bottom: 10px;">
+                                <i class="fa fa-solid fa-rocket fa-2x"></i>
+                            </span>
+                            Combined Freight
                         </div>
                         <div class="cardOverlay"></div>
-                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200" height="300" muted loop id="CombinedCardVideo">
+                        <video onmouseover="this.play();" onmouseout="this.pause();this.currentTime=0;" width="200"
+                            height="300" muted loop id="CombinedCardVideo">
                             <source src="video assets/combined card video.mp4" type="video/mp4">
                         </video>
                     </li>
