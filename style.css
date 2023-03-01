@@ -108,6 +108,10 @@ ul {
   margin-right: 5px;
 }
 
+.Card:hover{
+  cursor:pointer;
+}
+
 .cardOverlay{
   width: 200px;
   height: 300px;
@@ -115,6 +119,7 @@ ul {
   opacity: 0.1;
   position: absolute;
 }
+
 .Card:hover .cardOverlay{
   opacity:0.5;
 }
@@ -181,3 +186,4 @@ ul {
   color: white;
   cursor: pointer;
 }
+
