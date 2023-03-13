@@ -6,6 +6,9 @@ body {
   overflow-x: hidden;
 }
 
+header{
+  position: absolute;
+}
 .top-page-wrapper {
   height: 735px;
 }
@@ -143,6 +146,7 @@ ul {
   text-align: center;
   padding-left: 250px;
   padding-right: 250px;
+  padding-top: 100px;
 }
 
 #companyName {
@@ -227,7 +231,7 @@ ul {
 #bio-bottom-box {
   width: 250px;
   height: 10px;
-  margin-left: 69vw;
+  margin-left: 68.5vw;
   margin-top:-2vh;
   background-color: rgb(232, 206, 81);
   border-radius: 300px;
@@ -238,12 +242,12 @@ ul {
   font-weight: lighter;
   font-size: 1rem;
   margin-top: 2vh;
-  margin-left: 67.5vw;
+  margin-left: 68.5vw;
   text-align: center;
 }
 
 #banner-button-wrapper{
-  margin-left: 69vw;
+  margin-left: 68.5vw;
   margin-top:40vh;
 
   width: 250px;
