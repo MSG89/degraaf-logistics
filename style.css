@@ -194,14 +194,14 @@ ul {
   cursor: pointer;
 }
 
-.greenSolutionWrapper {
+.banner-wrapper {
   margin-top: 25px;
   margin-bottom: 25px;
   max-width: 100%;
   height: 400px;
 }
 
-.green-solution-banner {
+.banner {
   margin: auto;
   display: block;
   z-index: 0;
@@ -226,7 +226,7 @@ ul {
   text-align: center;
 }
 
-.bio-bottom-box {
+.bottom-box {
   width: 250px;
   height: 10px;
   margin-left: 68.5vw;
